@@ -81,4 +81,6 @@ public class SupportSystem
  * #6: i found it by searching their definiton on what to they do, it was easy to find them
  * #7: Returns a string whose value is this string, with any leading and trailing whitespace remove. trime()
  * #10: boolean
+ * #12: Java.Util.Random, used to generate a stream of pseudorandom numbers, public Random(), IntStream ints().
+ * #13: 
  */
