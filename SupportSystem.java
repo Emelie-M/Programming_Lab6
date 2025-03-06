@@ -38,7 +38,8 @@ public class SupportSystem
 
         while(!finished) {
             String input = reader.getInput();
-
+            input = input.trim();
+            
             if(input.startsWith("bye")) {
                 finished = true;
             }
@@ -71,3 +72,12 @@ public class SupportSystem
         System.out.println("Nice talking to you. Bye...");
     }
 }
+/**
+ * #2: 
+ * #3: one of them test if the string start with a specified prefix while the other test the substring beginning at the specified index starts with the specified prefix.
+ * #4: endsWith(String suffix)
+ * #5: length()
+ * #6: i found it by searching their definiton on what to they do, it was easy to find them
+ * #7: Returns a string whose value is this string, with any leading and trailing whitespace remove. trime()
+ * 
+ */
