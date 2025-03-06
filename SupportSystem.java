@@ -39,8 +39,9 @@ public class SupportSystem
         while(!finished) {
             String input = reader.getInput();
             input = input.trim();
+            input = input.toLowerCase();
             
-            if(input.startsWith("bye")) {
+            if(input.equals("bye")) {
                 finished = true;
             }
             else {
@@ -79,5 +80,5 @@ public class SupportSystem
  * #5: length()
  * #6: i found it by searching their definiton on what to they do, it was easy to find them
  * #7: Returns a string whose value is this string, with any leading and trailing whitespace remove. trime()
- * 
+ * #10: boolean
  */
