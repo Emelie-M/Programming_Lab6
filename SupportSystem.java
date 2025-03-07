@@ -15,6 +15,7 @@ public class SupportSystem
 {
     private InputReader reader;
     private Responder responder;
+
     
     /**
      * Creates a technical support system.
@@ -83,4 +84,5 @@ public class SupportSystem
  * #10: boolean
  * #12: Java.Util.Random, used to generate a stream of pseudorandom numbers, public Random(), IntStream ints().
  * #13: Radome rnd = new Random();
+ * #23: it will still work properly because the index is the amount of array we have so the more we add or the less we have it will work.
  */

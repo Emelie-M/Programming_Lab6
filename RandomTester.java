@@ -21,7 +21,11 @@ public class RandomTester
         // initialise instance variables
         randomGenerator = new Random();
         responses = new ArrayList<>();
-        
+        fillResponses();
+    }
+
+    private void fillResponses()
+    {
         responses.add("yes");
         responses.add("no");
         responses.add("maybe");
@@ -29,7 +33,7 @@ public class RandomTester
         responses.add("I'll ask my mom");
         responses.add("no idea");
     }
-
+    
     public void printOneRandom()
     {
         // put your code here
@@ -65,4 +69,5 @@ public class RandomTester
         int index = randomGenerator.nextInt(responses.size());
         return responses.get(index);
     }
+    
 }
