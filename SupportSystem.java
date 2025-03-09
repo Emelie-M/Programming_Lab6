@@ -96,5 +96,5 @@ public class SupportSystem
  * #34: the differences is that hashset doesnt allow dulicates while arraylist does. THe similarities is the they are both used to store list.
  * #35: wellthe string should be split by , or ;. like apple; orange; banana.
  * #36: String[] name = str.split(";");
- * #37: 
+ * 
  */
