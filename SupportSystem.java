@@ -93,4 +93,8 @@ public class SupportSystem
  * #30: boolean containsKey(Object key)
  * #31: it returns a null.
  * #32: print the keySet().
+ * #34: the differences is that hashset doesnt allow dulicates while arraylist does. THe similarities is the they are both used to store list.
+ * #35: wellthe string should be split by , or ;. like apple; orange; banana.
+ * #36: String[] name = str.split(";");
+ * #37: 
  */
